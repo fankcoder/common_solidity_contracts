@@ -14,10 +14,10 @@ contract CoolToken is ERC20, Ownable {
     }
 
     /**
-     * @notice mint is used for mint SVT.
-     * @param amount specify mint count.
+     * @notice mint is used for mint CT.
+     * @param amount specify mint count, 1 amount equal 1 ether.
      */
     function mint(uint256 amount) external onlyOwner {
-        _mint(minter, amount);
+        _mint(minter, amount*10**18);
     }
 }

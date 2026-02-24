@@ -80,7 +80,7 @@ Mint NFTs by paying ERC20 tokens (e.g., USDT).
 ### ✅ example09 - Get Unsafe Random Seed  
 Generate pseudo-random numbers using block variables (not secure).  
 
-使用区块变量生成不安全的伪随机数（不推荐用于生产）。
+使用不安全的伪随机数（不推荐用于生产）。
 
 ---
 
